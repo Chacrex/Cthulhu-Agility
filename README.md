@@ -64,4 +64,8 @@ Pour vérifier le bon déroulement de chaque tâche, nous utilisons l'outil de *
 
 # Gestion des communications
 
----
+## Analyse des intervenants
+
+## Rapports sur le projet et communications
+
+## Collecte de données
