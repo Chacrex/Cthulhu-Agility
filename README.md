@@ -64,7 +64,19 @@ Pour vérifier le bon déroulement de chaque tâche, nous utilisons l'outil de *
 
 # Gestion des communications
 
+Nous commençons nos séances par un daily, dans lequel nous détaillons chaque activité que nous avons faite pendant la séance précédente. Nous fixons les objectifs à réaliser pour la séance en cours.
+
+* Les outils que nous avons mis en place :
+  - Nous avons mis en place un GitHub pour pouvoir déposer nos codes pour le développement et les éventuelles tests.
+  - Nous avons mis en place un Discord pour pouvoir s'échanger les messages, et s'envoyer les articles dont on juge utiles.
+  - Nous avons mis en place un outil de planification de projet qui contient les diagrammes de Gantt, les tâches que chacun doit réaliser et bien d'autres fonctionnalités utiles.
+
+Nous utilisons les méthodes agiles, pour cela nous organisons régulièrement des réunions avec le client pour savoir si ça correspond bien au cahier des charges.
+
 ## Analyse des intervenants
+
+| Nom de l'intervenant | Impact de l'intervenant sur le projet | Impact du projet sur l'intervenant | Exigences en matière de communications |
+|:-|:-|:-|:-|
 
 ## Rapports sur le projet et communications
 
