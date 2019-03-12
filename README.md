@@ -50,6 +50,12 @@ Pour vérifier le bon déroulement de chaque tâche, nous utilisons l'outil de *
 
 # Gestion des coûts
 
+## Estimation
+
+## Allocation budgétaire
+
+## Contrôle du budget
+
 ---
 
 # Gestion de la qualité
