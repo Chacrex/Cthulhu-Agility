@@ -73,6 +73,9 @@ Pour recenser les exigences du client, des démonstrations sont organisées à l
 
 Au cours de la phase de développement, de nouveaux besoins peuvent émerger et il est important d'en mesurer la faisabilité. À cet effet, chaque nouvelle fonctionnalité fait l'objet d'une étude par l'équipe de développement pour décider ou non de son intégration ainsi que du coût engendré, de la répartition des effectifs pour la réaliser ...
 
+**Contraintes**
+Au vue des délais assez courts pour la réalisation de ce projet, il nous est difficile de développer des fonctionnalités très avancées, c'est pour cela que nous avons choisi un découpage en activités simples, facilement réalisables et intégrables.
+
 ---
 
 # Gestion du calendrier
@@ -93,6 +96,12 @@ Pour vérifier le bon déroulement de chaque tâche, nous utilisons l'outil de *
 ---
 
 # Gestion des coûts
+
+**Estimation**
+
+**Allocation budgétaire**
+
+**Contrôle du budget**
 
 ---
 
