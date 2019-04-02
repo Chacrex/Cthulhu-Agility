@@ -111,4 +111,28 @@ Pour vérifier le bon déroulement de chaque tâche, nous utilisons l'outil de *
 
 # Gestion des communications
 
----
+Nous commençons nos séances par un daily, dans lequel nous détaillons chaque activité que nous avons faite pendant la séance précédente. Nous fixons les objectifs à réaliser pour la séance en cours.
+
+Le scrum master répartie les tâches, et affecte une tâche spécifique pour chaque membre de l'équipe. Si la tâche en question demande plus de personnes, on peut être amenés à travailler à plusieurs sur la même tâche on découpant en plusieurs sous-tâches.
+
+Quand on est confronté à des situations où nous avons un incompréhension du sujet ou d'une tâche, pour minimiser les erreurs aux maximum on demande au client ce qu'il en pense, et nous lui demandons plus d'explications.
+
+Le fait d'avoir le retour client très vite, c'est très bénéfique pour notre équipe développement.
+
+À la fin de chaque séance nous faisont un retrospective, la où chaque personne de l'équipe dis
+
+* Les outils que nous avons mis en place pour mener à bien le projet :
+  - Nous avons mis en place un GitHub pour pouvoir déposer nos codes pour le développement et les éventuelles tests.
+  - Nous avons mis en place un Discord pour pouvoir s'échanger des messages, et s'envoyer les articles dont on juge utiles.
+  - Nous avons mis en place un outil de planification de projet qui contient les diagrammes de Gantt, les tâches que chacun doit réaliser et bien d'autres fonctionnalités utiles.
+
+Nous utilisons les méthodes agiles, pour cela nous organisons régulièrement des réunions avec le client pour savoir si ça correspond bien au cahier des charges.
+
+## Analyse des intervenants
+
+| Nom de l'intervenant | Impact de l'intervenant sur le projet | Impact du projet sur l'intervenant | Exigences en matière de communications |
+|:-|:-|:-|:-|
+
+## Rapports sur le projet et communications
+
+## Collecte de données
