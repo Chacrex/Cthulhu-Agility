@@ -107,7 +107,7 @@ Pour vérifier le bon déroulement de chaque tâche, nous utilisons l'outil de *
 
 **Diagramme de Gantt**
 
-![Diagramme de Gantt](Gantt.png "Diagramme de Gantt")
+![Diagramme de Gantt](Gantt.PNG "Diagramme de Gantt")
 
 ---
 
