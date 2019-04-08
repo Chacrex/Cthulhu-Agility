@@ -50,7 +50,13 @@ __Organismes de gouvernance__
 
 ## 4.Clôture du projet 
 
+Une fois que le projet sera cloturé, notre équipe sera placé sur de nouveaux projets où sur des projets déjà existant sur les quels il y a un besoin de main d'oeuvre. Il s'agira principalement de projet en Java.
 
+L'archivage des fichiers se fera sur les serveurs de GitHub qui ont servit pour le versionning du projet ainsi que pour la rédaction d'une partie de la documentation. L'autre partie se trouve sur l'outils de gestion de projet, qui se compose principalement de l'explication de l'algorithmie utilisée pour l'implémentation des différents codes barres.
+
+La rédaction du compte rendu aux membres se fera à partir des différents contenu des réunions, principalement les rétrospéctives et les daily, qui on permise de mettre l'accent sur des problèmes organisationnels dans l'équipe.
+
+Le rapport définitif sera rédigé en se basant principalement sur les rétrospéctives ainsi que sur les données stockées dans le gestionnaire de projet, qui donnerons un apercu macroscopique du projet, ainsi que sur les réussites et les échecs que l'équipe aura rencontrés.
 ---
 
 # Gestion de la portée
@@ -74,6 +80,7 @@ Pour recenser les exigences du client, des démonstrations sont organisées à l
 Au cours de la phase de développement, de nouveaux besoins peuvent émerger et il est important d'en mesurer la faisabilité. À cet effet, chaque nouvelle fonctionnalité fait l'objet d'une étude par l'équipe de développement pour décider ou non de son intégration ainsi que du coût engendré, de la répartition des effectifs pour la réaliser ...
 
 **Contraintes**
+
 Au vue des délais assez courts pour la réalisation de ce projet, il nous est difficile de développer des fonctionnalités très avancées, c'est pour cela que nous avons choisi un découpage en activités simples, facilement réalisables et intégrables.
 
 ---
