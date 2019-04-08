@@ -145,26 +145,44 @@ Au cours de ce projet, diverses procédures ont été mises en place pour assure
 
 Nous commençons nos séances par un daily, dans lequel nous détaillons chaque activité que nous avons faite pendant la séance précédente. Nous fixons les objectifs à réaliser pour la séance en cours.
 
-Le scrum master affecte une tâche spécifique pour chaque membre de l'équipe. Si la tâche en question demande plus de personnes, on peut être amenés à travailler à plusieurs sur la même tâche on découpant en plusieurs sous-tâches.
+Le scrum master répartit les tâches, et affecte une tâche spécifique pour chaque membre de l'équipe. Si la tâche en question demande plus de personnes, on peut être amenés à travailler à plusieurs sur la même tâche en découpant en plusieurs sous-tâches.
 
-Quand on est confronté à des situations où nous avons une incompréhension du sujet ou d'une tâche, pour minimiser les erreurs au maximum, nous demandons au client ce qu'il en pense, et nous lui demandons plus d'explications.
+Quand on est confronté à des situations où nous avons une incompréhension du sujet ou d'une tâche, pour minimiser les erreurs au maximum on demande au client ce qu'il en pense, et nous lui demandons plus d'explications.
 
-Le fait d'avoir le retour du client très rapidement est très bénéfique pour notre équipe Développement.
+Le fait d'avoir le retour client très vite, c'est très bénéfique pour notre équipe développement.
 
-À la fin de chaque séance nous faisont une retrospective, pendant la quelle chaque personne de l'équipe indique là où il en est de la tâche qui lui à été assignée.
+À la fin de chaque séance nous faisont une rétrospective, là où chaque personne de l'équipe prévient les autres membres de son état d'avancement, de ce qu'il a fait pendant la séance et ce qu'il a aimé et pas aimé pendant la séance, pour que chacun puisse s'améliorer pour la séance prochaine.
+
+Et entre le daily et la rétrospective, nous faisont d'autres réunions intermédiaires si on juge cela utile.
 
 * Les outils que nous avons mis en place pour mener à bien le projet :
-  - Nous avons mis en place un dépot GitHub pour pouvoir déposer nos codes pour le développement et les éventuelles tests.
-  - Nous avons mis en place un serveur Discord pour pouvoir s'échanger des messages, et s'envoyer les articles dont on juge utiles.
+  - Nous avons mis en place un GitHub pour pouvoir déposer nos codes pour le développement et les éventuelles tests.
+  - Nous avons mis en place un Discord pour pouvoir s'échanger des messages, et s'envoyer les articles dont on juge utiles.
   - Nous avons mis en place un outil de planification de projet qui contient les diagrammes de Gantt, les tâches que chacun doit réaliser et bien d'autres fonctionnalités utiles.
 
-Nous utilisons les méthodes agiles, pour cela nous organisons régulièrement des réunions avec le client pour savoir si ça correspond bien au cahier des charges.
+Nous utilisons les méthodes agiles, pour cela nous organisons régulièrement des réunions avec le client pour savoir si cela correspond bien au cahier des charges.
 
 ## Analyse des intervenants
 
 | Nom de l'intervenant | Impact de l'intervenant sur le projet | Impact du projet sur l'intervenant | Exigences en matière de communications |
 |:-|:-|:-|:-|
+| M. LEMESLE Romuald | C'est le client | C'est le produit que le client nous a demandé de développer | Les dailys, les rétrospectives, les réunions intermédiaires.
 
 ## Rapports sur le projet et communications
 
+| Type de communication | Calendrier des communications | Mécanisme de communication | Auteur | Destinataire |
+|:-|:-|:-|:-|:-|
+| Daily | Chaque début de séance | Réunion d'équipe | Scrum master| Chaque membre de l'équipe |
+| Planification | Après chaque daily | Discord + Outil de planification de projet | Scrum master | Chaque membre de l'équipe |
+| Démonstration du produit | Avant la fin de chaque séance | Démonstration du groupe avec le client | Chaque membre de l'équipe | Le client
+| Rétrospective | Avant la fin de chaque séance | Réunion d'équipe | Scrum master | Chaque membre de l'équipe
+
 ## Collecte de données
+
+Notre code est hébergé sur GitHub, et comporte deux branches : 
+- Développement
+- Tests
+
+Dans la branche *_*développement*_* on trouve le notre script et dans la branche *_*tests*_* on trouve deux fonctions pour mettre de si le code rentré est bien un entier et une autre fonction pour vérifier si la taille est bien 13.
+
+Chaque membre de l'équipe possède un compte GitHub et peut déposer son travail pour qu'il puisse être repris plus tard.
