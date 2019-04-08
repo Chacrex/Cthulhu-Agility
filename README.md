@@ -21,7 +21,7 @@ Après identification des besoins du client, il en ressort différentes fonction
 
 La solution que nous avons retenu pour la mise en œuvre de ce projet consiste à développer un script en JS intégrable via une balise **\<iframe>**. L'ergonomie et la facilité d'intégration sont des avantages qui nous ont poussé à choisir cette solution plutôt qu'une autre. Dans un cas d'utilisation nominal, l'utilisateur clique sur l'élément concerné sur le site web du client, ce qui lance la fenêtre de génération de code barres. Après avoir saisi les chiffres composants le code barres, le système génère une image que l'on peut imprimer, télécharger en pdf ou bien copier dans le presse-papier.
 
-Afin d'évaluer la réussite du projet, nous procéderons à plusieurs enquêtes de satisfaction cliente à chaque démonstration. Les critères principaux sont l'ergonomie, la facilité d'intégration au site web et l'assurance que les codes barress générés sont valides. Pour ce dernier point, notre équipe de développement utilise la méthode **TDD** pour vérifier au maximum le bon fonctionnement du système et satisfaire les exigences du client.
+Afin d'évaluer la réussite du projet, nous procéderons à plusieurs enquêtes de satisfaction cliente à chaque démonstration. Les critères principaux sont l'ergonomie, la facilité d'intégration au site web et l'assurance que les codes barres générés sont valides. Pour ce dernier point, notre équipe de développement utilise la méthode **TDD** pour vérifier au maximum le bon fonctionnement du système et satisfaire les exigences du client.
 
 ---
 
@@ -29,7 +29,7 @@ Afin d'évaluer la réussite du projet, nous procéderons à plusieurs enquêtes
 
 ## 1.Gouvernance du projet et structure de l'équipe du projet
 
-Dans le cadre de l'organisation de ce projet, il est important de définir les moyens de communications entre les différents acteurs prenant part à la conception. Tout d'abord, le client est l'émetteur des besoins et l'utilisateur final de la solution développée, sa participation est essentielle afin que l'équipe de développement est une bonne compréhension du problème. La méthode Scrum étant un pilier fondamental pour le bon déroulement du projet, le client assiste à une démonstration du logiciel à l'issue de chaque sprint. C'est à cette occasion que l'on s'assure que la solution réponde bien à ses exigences, mais aussi que de nouveaux besoins peuvent apparaître.
+Dans le cadre de l'organisation de ce projet, il est important de définir les moyens de communication entre les différents acteurs prenant part à la conception. Tout d'abord, le client est l'émetteur des besoins et l'utilisateur final de la solution développée, sa participation est essentielle pour la bonne compréhension du problème par l'équipe de développement. La méthode Scrum étant un pilier fondamental pour le bon déroulement du projet, le client assiste à une démonstration du logiciel à l'issue de chaque sprint. C'est à cette occasion que l'on s'assure que la solution réponde bien à ses exigences, mais aussi que de nouveaux besoins peuvent apparaître.
 
 Pour la communication interne au sein de l'équipe de développement, ce point sera détaillée dans la partie **"Gestion de la communication"**
 
@@ -40,23 +40,27 @@ __Organismes de gouvernance__
 ## 2.Rôles et responsabilités
 
 * Product Owner : Il est client et émetteur des besoins, il définit avec l'équipe de développement les fonctionnalités attendues pour le produit.
-* Scrum master : Son rôle est d'assurer la cohésion et l'organisation de l'équipe de développement en répartissant les tâches suivants les besoins actuels.
+* Scrum master : Son rôle est d'assurer la cohésion et l'organisation de l'équipe de développement en répartissant les tâches suivants les besoins.
 * Testeur : La mission du testeur est d'élaborer des scénarios de tests pour que la solution développée soit conforme aux attentes du client et fonctionne correctement.
 * Développeur : Discuter avec le client des fonctionnalités attendues, développer une solution adéquate et s'occuper des aspects techniques du projet comme la production, l'intégration et la maintenance sont les objectifs du développeur.
 
 ## 3.Gestion du changement
 
+En cas d'imprévus lors du projet, comme l'absence d'un membre ou un dysfonctionnement dans un processus, nous avons mis en place quelques mesures pour pallier aux problèmes et éviter que le projet prenne du retard.
 
+Par exemple, en cas d'absence d'un membre de l'équipe de développement, un autre développeur peut prendre le relais sur la tâche en suspens puisque le code est partagé via un GitHub où chacun des membres poste son travail à l'issue d'une séance. Ainsi, il est possible d'avancer sur des tâches critiques malgré les aléas.
+
+De manière générale, l'équipe de développement débat de la répartition des tâches en cas d'imprévus pour réorganiser le travail et limiter les délais.
 
 ## 4.Clôture du projet 
 
-Une fois que le projet sera cloturé, notre équipe sera placé sur de nouveaux projets où sur des projets déjà existant sur les quels il y a un besoin de main d'oeuvre. Il s'agira principalement de projet en Java.
+Une fois que le projet sera cloturé, notre équipe sera placé sur de nouveaux projets où sur des projets déjà existant sur lesquels il y a un besoin de main-d'oeuvre. Il s'agira principalement de projet en Java.
 
 L'archivage des fichiers se fera sur les serveurs de GitHub qui ont servit pour le versionning du projet ainsi que pour la rédaction d'une partie de la documentation. L'autre partie se trouve sur l'outils de gestion de projet, qui se compose principalement de l'explication de l'algorithmie utilisée pour l'implémentation des différents codes barres.
 
-La rédaction du compte rendu aux membres se fera à partir des différents contenu des réunions, principalement les rétrospéctives et les daily, qui on permise de mettre l'accent sur des problèmes organisationnels dans l'équipe.
+La rédaction du compte-rendu aux membres se fera à partir des différents contenus des réunions, principalement les rétrospectives et les daily, qui on permis de mettre l'accent sur des problèmes organisationnels dans l'équipe.
 
-Le rapport définitif sera rédigé en se basant principalement sur les rétrospéctives ainsi que sur les données stockées dans le gestionnaire de projet, qui donnerons un apercu macroscopique du projet, ainsi que sur les réussites et les échecs que l'équipe aura rencontrés.
+Le rapport définitif sera rédigé en se basant principalement sur les rétrospectives ainsi que sur les données stockées dans le gestionnaire de projet. Cela donnera un apercu macroscopique du projet, tout en détaillant les réussites et les échecs de l'équipe au cours du projet.
 
 ---
 
@@ -78,7 +82,7 @@ Par ailleurs, il est important de noter les différentes fonctionnalités attend
 
 Pour recenser les exigences du client, des démonstrations sont organisées à l'issue de chaque séance pour s'assurer que les fonctionnalités développées correspondent bien aux attentes du client. Cela nous permet également de définir un "cap" pour la séance suivante et définir ensemble les points à travailler.
 
-Au cours de la phase de développement, de nouveaux besoins peuvent émerger et il est important d'en mesurer la faisabilité. À cet effet, chaque nouvelle fonctionnalité fait l'objet d'une étude par l'équipe de développement pour décider ou non de son intégration ainsi que du coût engendré, de la répartition des effectifs pour la réaliser ...
+Au cours de la phase de développement, de nouveaux besoins peuvent émerger et il est important d'en mesurer la faisabilité. À cet effet, chaque nouvelle fonctionnalité fait l'objet d'une étude par l'équipe de développement pour décider ou non de son intégration ainsi que du coût engendré, de la répartition des effectifs pour la réaliser, etc ...
 
 **Contraintes**
 
@@ -101,6 +105,10 @@ Le projet se déroulera du **2 mars** au **2 avril**, les différents jalons s'�
  
 Pour vérifier le bon déroulement de chaque tâche, nous utilisons l'outil de **[Planification de projet](https://projets.univ-avignon.fr/)** de l'université d'Avignon. Grâce à cet outil, nous pouvons définir des tâches, les attribuer facilement aux membres de l'équipe, fixer des échéances. Cette solution offre également différentes vues (tableau de bord, liste de tâches, diagramme de Gantt) nous permettant d'avoir une vision globale de l'avancement du projet.
 
+**Diagramme de Gantt**
+
+![Diagramme de Gantt](Gantt.png "Diagramme de Gantt")
+
 ---
 
 # Gestion des coûts
@@ -111,7 +119,7 @@ Après avoir rencontré le client et établit ses besoins vis-à-vis de l'applic
 
 À l'inverse, plusieurs phases d'ajustement ont lieu à l'issue de chaque daily et rencontre avec le client. En cas d'ajout de fonctionnalités ou de modifications de celles déjà présentes, on dresse un nouveau tableau d'estimation des coûts.
 
-Pour finir, à l'issue de la phase de réalisation du projet, une dernière étape de vérification aura lieu pour valider les estimations précédentes et s'assurer du non-dépassement des coûts prévus initialement.
+Pour finir, à l'issue de la phase de réalisation du projet, une dernière étape de vérification aura lieu pour valider les estimations réalisées précédemment et s'assurer du non-dépassement des coûts prévus initialement.
 
 **Estimation**
 
@@ -130,9 +138,9 @@ Pour finir, à l'issue de la phase de réalisation du projet, une dernière éta
 Les charges locatives correspondent au loyer du bâtiment utilisé par l'équipe de développement durant la réalisation du projet.
 
 Les charges salariales se divisent de manière suivante :
-* Salaire horaire brut (Dev): 15.71€
-* Salaire horaire brut (Scrum Master): 23.06€
-* Salaire horaire brut (Testeur) : 12.14€
+* Salaire horaire brut (Dev): 15.71€/h
+* Salaire horaire brut (Scrum Master): 23.06€/h
+* Salaire horaire brut (Testeur) : 12.14€/h
 
 **Contrôle du budget**
 
@@ -151,22 +159,20 @@ Au cours de ce projet, diverses procédures ont été mises en place pour assure
 
 # Gestion des communications
 
-Nous commençons nos séances par un daily, dans lequel nous détaillons chaque activité que nous avons faite pendant la séance précédente. Nous fixons les objectifs à réaliser pour la séance en cours.
+Nous commençons nos séances par un daily, dans lequel nous détaillons chaque activité que nous avons réalisé durant la séance précédente. C'est également l'occasion de fixer les objectifs à réaliser pour la séance en cours.
 
-Le scrum master répartit les tâches, et affecte une tâche spécifique pour chaque membre de l'équipe. Si la tâche en question demande plus de personnes, on peut être amenés à travailler à plusieurs sur la même tâche en découpant en plusieurs sous-tâches.
+Le scrum master répartit les tâches, et affecte une activité spécifique pour chaque membre de l'équipe. Si la tâche en question demande plus de personnes, on peut être amené à travailler à plusieurs sur la même tâche en découpant en plusieurs sous-tâches.
 
-Quand on est confronté à des situations où nous avons une incompréhension du sujet ou d'une tâche, pour minimiser les erreurs au maximum on demande au client ce qu'il en pense, et nous lui demandons plus d'explications.
+Lorsqu'un besoin client n'est pas totalement compris par l'équipe de développement, on fait appel au client afin d'avoir plus de détails sur ses attentes. De part la proximité du client avec notre équipe, les incompréhensions sont vite résolues et il nous est possible d'avancer sans entraîner de délais supplémentaires.
 
-Le fait d'avoir le retour client très vite, c'est très bénéfique pour notre équipe développement.
+À la fin de chaque séance nous faisons une rétrospective : chaque personne de l'équipe prévient les autres membres de son état d'avancement, de ce qu'il a fait pendant la séance. De plus, chacun a l'occasion de s'exprimer sur ce qu'il a aimé durant la séance et partager avec l'équipe ses doutes si besoin. Cela permet d'améliorer la cohésion de l'équipe et les compétences des membres de manière continue.
 
-À la fin de chaque séance nous faisont une rétrospective, là où chaque personne de l'équipe prévient les autres membres de son état d'avancement, de ce qu'il a fait pendant la séance et ce qu'il a aimé et pas aimé pendant la séance, pour que chacun puisse s'améliorer pour la séance prochaine.
-
-Et entre le daily et la rétrospective, nous faisont d'autres réunions intermédiaires si on juge cela utile.
+Par ailleurs, entre le daily et la rétrospective, nous faisons d'autres réunions intermédiaires selon les besoins.
 
 * Les outils que nous avons mis en place pour mener à bien le projet :
-  - Nous avons mis en place un GitHub pour pouvoir déposer nos codes pour le développement et les éventuelles tests.
-  - Nous avons mis en place un Discord pour pouvoir s'échanger des messages, et s'envoyer les articles dont on juge utiles.
-  - Nous avons mis en place un outil de planification de projet qui contient les diagrammes de Gantt, les tâches que chacun doit réaliser et bien d'autres fonctionnalités utiles.
+  - Nous avons mis en place un GitHub pour pouvoir déposer nos codes pour le développement et les éventuels tests.
+  - Nous avons mis en place un Discord pour pouvoir s'échanger des messages, et s'envoyer les articles utiles.
+  - Nous avons mis en place un outil de planification de projet qui contient les diagrammes de Gantt, les tâches que chacun doit réaliser et bien d'autres fonctionnalités intéressantes.
 
 Nous utilisons les méthodes agiles, pour cela nous organisons régulièrement des réunions avec le client pour savoir si cela correspond bien au cahier des charges.
 
@@ -191,6 +197,6 @@ Notre code est hébergé sur GitHub, et comporte deux branches :
 - Développement
 - Tests
 
-Dans la branche *_*développement*_* on trouve le notre script et dans la branche *_*tests*_* on trouve deux fonctions pour mettre de si le code rentré est bien un entier et une autre fonction pour vérifier si la taille est bien 13.
+Dans la branche *_*développement*_* on trouve notre script et dans la branche *_*tests*_* on trouve deux fonctions pour savoir si le code entré est bien un entier et une autre fonction pour vérifier si la taille est adaptée.
 
-Chaque membre de l'équipe possède un compte GitHub et peut déposer son travail pour qu'il puisse être repris plus tard.
+Chaque membre de l'équipe possède un compte GitHub et peut déposer son travail pour tenir informé les autres membres de l'avancement du projet et en cas de reprise de code.
