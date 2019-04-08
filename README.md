@@ -145,17 +145,17 @@ Au cours de ce projet, diverses procédures ont été mises en place pour assure
 
 Nous commençons nos séances par un daily, dans lequel nous détaillons chaque activité que nous avons faite pendant la séance précédente. Nous fixons les objectifs à réaliser pour la séance en cours.
 
-Le scrum master répartie les tâches, et affecte une tâche spécifique pour chaque membre de l'équipe. Si la tâche en question demande plus de personnes, on peut être amenés à travailler à plusieurs sur la même tâche on découpant en plusieurs sous-tâches.
+Le scrum master affecte une tâche spécifique pour chaque membre de l'équipe. Si la tâche en question demande plus de personnes, on peut être amenés à travailler à plusieurs sur la même tâche on découpant en plusieurs sous-tâches.
 
-Quand on est confronté à des situations où nous avons un incompréhension du sujet ou d'une tâche, pour minimiser les erreurs aux maximum on demande au client ce qu'il en pense, et nous lui demandons plus d'explications.
+Quand on est confronté à des situations où nous avons une incompréhension du sujet ou d'une tâche, pour minimiser les erreurs au maximum, nous demandons au client ce qu'il en pense, et nous lui demandons plus d'explications.
 
-Le fait d'avoir le retour client très vite, c'est très bénéfique pour notre équipe développement.
+Le fait d'avoir le retour du client très rapidement est très bénéfique pour notre équipe Développement.
 
-À la fin de chaque séance nous faisont un retrospective, la où chaque personne de l'équipe dis
+À la fin de chaque séance nous faisont une retrospective, pendant la quelle chaque personne de l'équipe indique là où il en est de la tâche qui lui à été assignée.
 
 * Les outils que nous avons mis en place pour mener à bien le projet :
-  - Nous avons mis en place un GitHub pour pouvoir déposer nos codes pour le développement et les éventuelles tests.
-  - Nous avons mis en place un Discord pour pouvoir s'échanger des messages, et s'envoyer les articles dont on juge utiles.
+  - Nous avons mis en place un dépot GitHub pour pouvoir déposer nos codes pour le développement et les éventuelles tests.
+  - Nous avons mis en place un serveur Discord pour pouvoir s'échanger des messages, et s'envoyer les articles dont on juge utiles.
   - Nous avons mis en place un outil de planification de projet qui contient les diagrammes de Gantt, les tâches que chacun doit réaliser et bien d'autres fonctionnalités utiles.
 
 Nous utilisons les méthodes agiles, pour cela nous organisons régulièrement des réunions avec le client pour savoir si ça correspond bien au cahier des charges.

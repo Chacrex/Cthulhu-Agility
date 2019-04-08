@@ -5,7 +5,7 @@ var black = false;
 // Constante communes à tous les codes barres
 var ean13BeginEnd = [white,black,white];
 var ean13Middle = [black,white,black,white,black];
-var sup1egin = [white,black,white,white];
+var supBegin = [white,black,white,white];
 var supEnd = [black,white];
 
 // Tableau de conversion poue les codes barres
@@ -102,7 +102,7 @@ function ean13BarCount(code)
     return true;
 }
 
-// Fonction de génération de code barre pour le code barre ean13
+// Fonction de génération de code barre pour le systeme ean13
 function ean13Binary(code)
 {
     // Vérification préalable
@@ -140,4 +140,65 @@ function ean13Binary(code)
     if(!ean13BarCount(ret)) return null;
 
     return ret;
+}
+
+// Fonction de calcul de la clé de l'ean 15
+function ean15Key(code15)
+{
+  var x = parseInt(code15);
+  var m = Math.floor(x / 4) * 4;
+  return x - m;
+}
+
+// Fonctionde génération de la seconde parti d'un code barre pour le systeme ean15
+function ean15Binary(code) {
+  // Récupération de la clé de codage
+  var key = ean15Key(code)
+  // Insertion du début du code
+  var ret15 = supBegin;
+
+  // Encodage des caractères
+  for(i = 13; i < 15; i++)
+  {
+    var correspondace = sup2[key][i-13];
+    var next = ean13Correspondance[parseInt(code[i])][correspondace];
+    ret15 = ret15.concat(next);
+  }
+
+  // Ajout de l'élément final
+  ret15 = ret15.concat(supEnd);
+
+  // Retour des deux codes
+  return ret15;
+}
+
+// Fonction de calcul de la clé de l'ean 18
+function ean18Key(code18)
+{
+  var x = parseInt(code18[14]) + parseInt(code18[16]);
+  var y = parseInt(code18[13]) + parseInt(code18[15]) + parseInt(code18[17]);
+  var z = 9 * x + 3 * y;
+  return z - (Math.floor(z / 10) * 10);
+}
+
+// Fonctionde génération de la seconde parti d'un code barre pour le systeme ean18
+function ean18Binary(code) {
+  // Récupération de la clé de codage
+  var key = ean18Key(code)
+  // Insertion du début du code
+  var ret18 = supBegin;
+
+  // Encodage des caractères
+  for(i = 13; i < 18; i++)
+  {
+    var correspondace = sup5[key][i-13];
+    var next = ean13Correspondance[parseInt(code[i])][correspondace];
+    ret18 = ret18.concat(next);
+  }
+
+  // Ajout de l'élément final
+  ret18 = ret18.concat(supEnd);
+
+  // Retour des deux codes
+  return ret18;
 }
