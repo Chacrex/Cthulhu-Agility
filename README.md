@@ -1,5 +1,5 @@
 # Cthulhu-Agility
-## Service de génération de code barre
+## Service de génération de code barres
 
 **Membres du projet**
 
@@ -10,18 +10,18 @@
 
 # Sommaire
 
-Dans le cadre de la réalisation de ce projet, notre équipe de développement va mettre en œuvre une solution de génération de code barre. Ce projet a pour but d'intégrer à des sites web existants une interface légère de gestion de code-barre. Cette dernière permettra à l'utilisateur de rentrer des chiffres correspondants à l'étiquette d'un produit et de générer ensuite un code barre valide, qui pourra être exporté au format pdf ou imprimer.
+Dans le cadre de la réalisation de ce projet, notre équipe de développement va mettre en œuvre une solution de génération de code barres. Ce projet a pour but d'intégrer à des sites web existants une interface légère de gestion de code barres. Cette dernière permettra à l'utilisateur de rentrer des chiffres correspondants à l'étiquette d'un produit et de générer ensuite un code barres valide, qui pourra être exporté au format pdf ou imprimer.
 
 Après identification des besoins du client, il en ressort différentes fonctionnalités qui devront être intégrées à notre solution :
 * un script léger que l'utilisateur pourra placer où il le souhaite sur son site web.
-* l'exportation en pdf de l'image du code-barre
-* l'impression de l'image du code-barre
+* l'exportation en pdf de l'image du code barres
+* l'impression de l'image du code barres
 
 À l'issue de ce projet, le client pourra optimiser sa productivité en gagnant du temps lors de l'étiquettage des produits. Le service que nous développons ayant une envergure assez restreinte, notre petite équipe de développement est adaptée pour répondre à ce problème, que ce soit en terme de coût ou d'efficacité.
 
-La solution que nous avons retenu pour la mise en œuvre de ce projet consiste à développer un script en JS intégrable via une balise **\<iframe>**. L'ergonomie et la facilité d'intégration sont des avantages qui nous ont poussé à choisir cette solution plutôt qu'une autre. Dans un cas d'utilisation nominal, l'utilisateur clique sur l'élément concerné sur le site web du client, ce qui lance la fenêtre de génération de code barre. Après avoir saisi les chiffres composants le code barre, le système génère une image que l'on peut imprimer, télécharger en pdf ou bien copier dans le presse-papier l'image générée.
+La solution que nous avons retenu pour la mise en œuvre de ce projet consiste à développer un script en JS intégrable via une balise **\<iframe>**. L'ergonomie et la facilité d'intégration sont des avantages qui nous ont poussé à choisir cette solution plutôt qu'une autre. Dans un cas d'utilisation nominal, l'utilisateur clique sur l'élément concerné sur le site web du client, ce qui lance la fenêtre de génération de code barres. Après avoir saisi les chiffres composants le code barres, le système génère une image que l'on peut imprimer, télécharger en pdf ou bien copier dans le presse-papier.
 
-Afin d'évaluer la réussite du projet, nous procéderons à plusieurs enquêtes de satisfaction cliente à chaque démonstration. Les critères principaux sont l'ergonomie, la facilité d'intégration au site web et l'assurance que les codes barres générés sont valides. Pour ce dernier point, notre équipe de développement utilise la méthode **TDD** pour vérifier au maximum le bon fonctionnement du système et satisfaire les exigences du client.
+Afin d'évaluer la réussite du projet, nous procéderons à plusieurs enquêtes de satisfaction cliente à chaque démonstration. Les critères principaux sont l'ergonomie, la facilité d'intégration au site web et l'assurance que les codes barress générés sont valides. Pour ce dernier point, notre équipe de développement utilise la méthode **TDD** pour vérifier au maximum le bon fonctionnement du système et satisfaire les exigences du client.
 
 ---
 
@@ -60,11 +60,11 @@ Tout au long du projet, des réunions régulières avec les membres de l'équipe
 Par ailleurs, il est important de noter les différentes fonctionnalités attendues par le client et lister de manière non-exhaustive celles qui n'en font pas partie.
 
 **Activités visées par le projet**
-* Génération de code-barre sous forme d'image à partir d'un code à 13 chiffres
+* Génération de code barres sous forme d'image à partir d'un code à 13 chiffres
 * Exportation au format PDF
-* Impression de l'image du code-barre
+* Impression de l'image du code barres
 *Activités visées en cas de temps supplémentaire* 
-* Génération de code-barre sous forme d'image à partir d'un code à 15/18 chiffres
+* Génération de code barres sous forme d'image à partir d'un code à 15/18 chiffres
 
 **Activités non-visées par le projet**
 * Génération de QR Code
@@ -80,7 +80,7 @@ Au vue des délais assez courts pour la réalisation de ce projet, il nous est d
 
 # Gestion du calendrier
 
-Le projet se déroulera du **5 mars** au **9 avril**, les différents jalons s'étalent sur cette période et sont définis suivant le tableau suivant :
+Le projet se déroulera du **2 mars** au **2 avril**, les différents jalons s'étalent sur cette période et sont définis suivant le tableau suivant :
 
 | **Modules** | 02/03 | 12/03 | 26/03 | 02/04 |
 |:-:|:-:|:-:|:-:|:-:|
@@ -97,15 +97,47 @@ Pour vérifier le bon déroulement de chaque tâche, nous utilisons l'outil de *
 
 # Gestion des coûts
 
+Durant la réalisation du projet, trois phases permettront d'évaluer les coûts inhérents au développement des fonctionnalités : la phase initiale, la phase d'ajustement et la réévaluation finale.
+
+Après avoir rencontré le client et établit ses besoins vis-à-vis de l'application à développer, il est possible d'établir une estimation du coût global de l'application. Cette étape correspond à la phase initiale et se déroule donc au lancement du projet.
+
+À l'inverse, plusieurs phases d'ajustement ont lieu à l'issue de chaque daily et rencontre avec le client. En cas d'ajout de fonctionnalités ou de modifications de celles déjà présentes, on dresse un nouveau tableau d'estimation des coûts.
+
+Pour finir, à l'issue de la phase de réalisation du projet, une dernière étape de vérification aura lieu pour valider les estimations précédentes et s'assurer du non-dépassement des coûts prévus initialement.
+
 **Estimation**
 
-**Allocation budgétaire**
+À l'issue d'une discussion au sein de l'équipe de développement au lancement du projet, il a été décidé du volume horaire nominal pour la réalisation de ce projet. Le temps alloué à la phase de spécification, de développement et d'intégration représente un total de 15h de travail pour chaque membre de l'équipe, réparti sur 2 séances de 4h30 et 2 séances de 3h. C'est une estimation du temps total nécessaire à la réalisation de ce projet, sachant que tout délai supplémentaire ne sera pas facturé au client.
+
+|**Intitulés**|**Montants (en €)**|
+|:--|:-:|
+|Charges locatives | 300 |
+|Charges salariales ||
+|Salaires développeur | 706.95 |
+|Salaire testeur | 182.10 |
+|Salaire scrum master | 345.90 |
+|||
+|**Total**| **1534.95** |
+
+Les charges locatives correspondent au loyer du bâtiment utilisé par l'équipe de développement durant la réalisation du projet.
+
+Les charges salariales se divisent de manière suivante :
+* Salaire horaire brut (Dev): 15.71€
+* Salaire horaire brut (Scrum Master): 23.06€
+* Salaire horaire brut (Testeur) : 12.14€
 
 **Contrôle du budget**
+
+Pour s'assurer du contrôle du budget, chaque rétrospective sera l'occasion de vérifier la qualité du code produit au cours de la séance et sa cohérence avec les estimations réalisées. Le nombre d'heures nécessaires à la réalisation d'une étape sera comparée au temps estimé afin de piloter plus facilement les futures étapes du projet et adapter les tâches en cours.
 
 ---
 
 # Gestion de la qualité
+
+Au cours de ce projet, diverses procédures ont été mises en place pour assurer la qualité du logiciel produit :
+* Des démonstrations régulières avec le client ont permit de s'assurer de la bonne réalisation des besoins exprimés au début du projet
+* À chaque fin de séance, une rétrospective a lieu pour vérifier la qualité de chaque fonctionnalité développée
+* Le testeur a réalisé une batterie de tests tout au long du projet pour couvrir chacun des besoins
 
 ---
 
