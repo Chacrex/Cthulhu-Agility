@@ -57,6 +57,7 @@ L'archivage des fichiers se fera sur les serveurs de GitHub qui ont servit pour 
 La rédaction du compte rendu aux membres se fera à partir des différents contenu des réunions, principalement les rétrospéctives et les daily, qui on permise de mettre l'accent sur des problèmes organisationnels dans l'équipe.
 
 Le rapport définitif sera rédigé en se basant principalement sur les rétrospéctives ainsi que sur les données stockées dans le gestionnaire de projet, qui donnerons un apercu macroscopique du projet, ainsi que sur les réussites et les échecs que l'équipe aura rencontrés.
+
 ---
 
 # Gestion de la portée
