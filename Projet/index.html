@@ -1,0 +1,45 @@
+
+<!doctype html>
+
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <title>Generateur de code barre</title>
+    </head>
+
+    <script src="EANGenerator.js"></script>
+    <body onload="Init()">
+        <div class="iframeBox">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active text-align form-new" id="home" role="tabpanel" aria-labelledby="home-tab">
+                            <div id="frame" class="row register-form">
+                                <div id="inputContainer" class="col-md-12">
+                                    <div class="form-group">
+                                        <input id="inputUtilisateur" type="text" name="LGform1_user" class="form-control" placeholder="Code barre" value="" required=""/>
+                                    </div>
+                                    <div class="form-group">
+                                        <button onclick="LancementGeneration()" class="btn btn-primary btn-lg btn-block">Lancer la conversion</button>
+                                    </div>
+                                </div>
+                                <div id="canvasContainer">
+                                    <div id="printScope">
+                                        <canvas id="CodeBarrePNG" width="0" height="0"></canvas>
+                                    </div>
+                                    <div class="columnFlex">
+                                        <button id="Imprimer" class="button" onclick="printContent()"></button>
+                                        <button id="Rewind" class="button" onclick="ShowInput()"></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

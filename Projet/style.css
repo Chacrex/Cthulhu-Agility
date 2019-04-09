@@ -1,0 +1,63 @@
+body{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+#Rewind {
+    width: 60px;
+    height: 60px;
+    background-image: url("Image/Rewind.png");
+}
+
+.button {
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+#canvasContainer {
+    display: flex;
+}
+
+.columnFlex {
+    display: flex;
+    flex-direction: column;
+}
+
+#Imprimer {
+    width:60px;
+    height: 140px;
+    background-image: url("Image/Imprimer.png");
+}
+
+.iframeBox {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border-width: 2px;
+    color: white;
+    border-style: solid;
+    border-color: black;
+    margin-top: 3%;
+    padding: 3%;
+}
+
+.btnContactSubmit
+{
+    width: 50%;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+    margin-right: 6%;
+    background-color: white;
+    color: blue;
+    margin-top: 4%;
+}
