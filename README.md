@@ -107,7 +107,7 @@ Pour vérifier le bon déroulement de chaque tâche, nous utilisons l'outil de *
 
 **Diagramme de Gantt**
 
-![Diagramme de Gantt](Gantt.PNG "Diagramme de Gantt")
+![Diagramme de Gantt](Gantt.png "Diagramme de Gantt")
 
 ---
 
@@ -193,7 +193,7 @@ Nous utilisons les méthodes agiles, pour cela nous organisons régulièrement d
 
 ## Collecte de données
 
-Notre code est hébergé sur GitHub, et comporte deux branches : 
+Notre code est hébergé sur [GitHub](https://github.com/Chacrex/Cthulhu-Agility), et comporte deux branches : 
 - Développement
 - Tests
 
